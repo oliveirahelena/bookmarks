@@ -16,7 +16,10 @@ DEBUG = env.bool('DEBUG', default=False)
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+    '650c160c7e0e.ngrok.io'
+]
 
 
 # Application definition
